@@ -18,6 +18,10 @@ class BroadcastBus {
     return _mainBus.stream;
   }
 
+  Stream<String> getFilteredBus(String filteredBy) {
+    return getMainBus().where((event) => event == filteredBy);
+  }
+
   void emit(String event) {
     _mainBus.add(event);
   }
