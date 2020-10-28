@@ -1,8 +1,8 @@
 name: broadcast_bus
 description: A new Flutter package project.
 version: 0.0.2
-author: luca.roverelli@gmail.com
-homepage:
+homepage: https://github.com/jellyfishsolutions/broadcast-bus
+repository: https://github.com/jellyfishsolutions/broadcast-bus.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
